@@ -1,0 +1,184 @@
+* {
+	margin:0;
+	padding:0;
+	/*box-sizing:border-box;*/
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+
+header {
+	background-color: #ffed74;
+	border: 1px black solid;
+    padding: 0px;
+	text-align: center;
+}
+body {
+	background-color: #ffffff;
+	color: #414042;
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height:1.5;
+	text-align: center;
+}
+section {
+	padding: 1em;
+}
+h1 {
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 3em;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+h2 {
+	color: #000000;
+	font-size: 1.5em;
+	font-weight: normal;
+	padding: 0em;
+}
+h3 {
+	color: #818A8F;
+	font-size: 1em;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 1em 0 0;
+}
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+a {
+	color: #00aeef;
+	text-decoration: none;
+}
+nav {
+	background-color: #e8c66a;
+	margin: 0em;
+	border: 1px black solid;
+    padding: 20px;
+}
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+	margin-right: 1.25em;
+}
+address {
+	color: #ffffff;
+	font-size: 0.85em;
+	font-style: normal;
+	font-weight: lighter;
+	padding: 0.5em 0;
+}
+img {
+	width: 100%;
+	padding-top: 1.5em;
+}
+
+
+
+
+.important{
+	font-size: 1.25em;
+	font-weight: lighter;
+}
+.facts {
+	font-size: 1.25em;
+	font-weight: lighter;
+	width: 30em;
+	padding: 1em 0;
+	border: 1px black solid;
+	margin: 1em auto;
+}
+.infographics {
+	width: auto;
+	height: 5em;
+	margin: 1em;
+	padding-top: 0em;
+}
+.reversetext{
+	color: #ffffff;
+	font-weight: lighter;
+	padding-bottom: 1em;
+}
+.video {
+	width: 800px;
+}
+.headshots {
+	width: 15%;
+}
+.logos {
+	width: auto;
+	height: 3em;
+	margin: 1em;
+	padding-top: 0em;
+}
+.fancy {
+	color: #69923A;
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 1.5em;
+	font-weight: lighter;
+	padding: 0.5em;
+}
+.story {
+	color: #818A8F;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-transform: none;
+	padding-top: 0.5em;
+}
+.company {
+	color: #818A8F;
+	font-size: 1.25em;
+	font-weight: bold;
+	padding-top: 0.5em;
+}
+
+
+
+
+#hero_image {
+	background: url(../images/hero_image.jpg);
+	background-size: cover;
+	height: 90vh;
+}
+#introduction {
+	padding: 2em 0;
+}
+#facts_statistics {
+	background-color: #e89c6c;
+	border: 1px black solid;
+    padding: 20px;
+}
+#video {
+	background-color: #ffc675;
+	border: 1px black solid;
+    padding: 20px;
+}
+#stories {
+	width: 30em;
+	margin: auto;
+	border: 1px black solid;
+    padding: 20px;
+}
+#narrators {
+	background-color: #e89c6c;
+	border: 1px black solid;
+    padding: 20px;
+}
+#credits {
+	background-color: #ffc675;
+	border: 1px black solid;
+    padding: 20px;
+}
+#organizations {
+	background-color: #ffffff;
+	padding: 1em 0;
+	margin: 2em 0 0 0;
+}
+#footer {
+	background-color: #ff957e;
+	border: 1px black solid;
+    padding: 20px;
+	margin-top: 0em;
+}
