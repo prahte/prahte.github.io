@@ -8,7 +8,7 @@
 
 header {
 	background-color: #69923A;
-	padding: 1em;
+	padding: 0em;
 	text-align: center;
 }
 body {
@@ -22,6 +22,7 @@ body {
 }
 section {
 	padding: 1em;
+	clear: both;
 }
 h1 {
 	font-family: "Roboto Slab", sans-serif;
@@ -33,35 +34,88 @@ h2 {
 	color: #000000;
 	font-size: 1.5em;
 	font-weight: normal;
-	padding: 0em;
+	margin-bottom: 0.5em;
 }
 h3 {
 	color: #818A8F;
 	font-size: 1em;
 	font-weight: normal;
+	line-height: 1.5em;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	padding: 1em 0 0;
+	padding: 1em 0em 0em;
+	margin: 0.5em 0em;
 }
 p {
 	font-size: 1em;
 	line-height: 1.5em;
 }
-a {
-	color: #00aeef;
-	text-decoration: none;
+article {
+	float: left;
+	padding: 2em;
+	/*background-color: orange;*/
 }
-nav a {
+aside {
+	float: right;
+}
+figure {
+	margin: auto;
+}
+figcaption {
+	font-size: 0.85em;
+}
+
+
+nav {
+	background-color: #69923A;
+}
+
+
+a:link {
+	color: #0098DB;
+	font-weight: bold;
+	text-decoration: none;
+	margin-right: 0;
+}
+
+a:visited {
+	color: #0098DB;	
+}
+a:hover {
+	color: #EBB700;
+}
+a:active {
+	color: #0098DB;
+}
+
+
+nav a:link {
+	background-color: #69923A;
+	color: white;
+	font-weight: normal;
+	text-decoration: none;
+	display: inline-block;
+	float: center;
+	padding: 1em;
+}
+
+nav a:visited {
 	color: #ffffff;
-	text-decoration: none;
-	margin-right: 1.25em;
 }
+nav a:hover {
+	background-color: #557630;
+}
+nav a:active {
+	color: #ffffff;
+}
+
+
 address {
 	color: #ffffff;
 	font-size: 0.85em;
 	font-style: normal;
 	font-weight: lighter;
-	padding: 0.5em 0;
+	padding: 0.5em 0em;
 }
 img {
 	width: 100%;
@@ -69,32 +123,72 @@ img {
 }
 
 
-
-
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+.content {
+	max-width: 1200px;
+	margin: auto;
+}
 .important{
 	font-size: 1.25em;
 	font-weight: lighter;
+	text-align: left;
+	padding: 1em 6em;
 }
 .facts {
-	font-size: 1.25em;
-	font-weight: lighter;
-	width: 30em;
-	padding: 1em 0;
-	margin: 1em auto;
+/*	font-size: 1.25em;*/
+/*	font-weight: lighter;*/
+/*	background-color: orange;*/	
+	width: 20em;
+	padding: 1.5em;
+	margin: 0.5em;
+	display: inline-block;
+	float: center;
 }
 .infographics {
 	width: auto;
 	height: 5em;
-	margin: 1em;
 	padding-top: 0em;
+	margin: 1em;
+}
+.video {
+	width: 800px;
 }
 .reversetext{
 	color: #ffffff;
 	font-weight: lighter;
 	padding-bottom: 1em;
 }
-.video {
-	width: 800px;
+.button1 {
+	background-color: #005293;
+	padding: 0.5em 1.5em;
+/*	border-style: solid;
+	border-color: #000000;
+	border-width: 2px;*/
+	margin: 1em 0em 1.5em;
+	display: inline-block;
+}
+.mainstory {
+	/*background-color: rgba(209, 212, 211, 0.5);*/
+	width: 45em;
+	margin-left: 1.5em;
+}
+.people {
+	/*background-color: rgba(209, 212, 211, 0.5);*/
+	width: 17.5em;
+	margin: 3em;
+}
+.speakers {
+	background-color: #d1d4d3;
+	height: 15em;
+	width: auto;
+	padding-top: 1em;
 }
 .headshots {
 	width: 15%;
@@ -102,22 +196,46 @@ img {
 .logos {
 	width: auto;
 	height: 3em;
-	margin: 1em;
 	padding-top: 0em;
+	margin: 1em;
 }
 .fancy {
 	color: #69923A;
 	font-family: "Roboto Slab", sans-serif;
-	font-size: 1.5em;
+	font-size: 1.75em;
 	font-weight: lighter;
-	padding: 0.5em;
+	margin-top: 1em;
+/*	padding: 0.5em;
+*/}
+.success {
+	color: #818A8F;
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 2em;
+	text-align: left;
+	margin-left: .75em;
 }
 .story {
-	color: #818A8F;
+	color: #005293;
 	font-size: 1.25em;
 	font-weight: bold;
+	line-height: normal;
 	text-transform: none;
 	padding-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+.column {
+	width: 50%;
+	padding-bottom: 0.5em;
+	float: left;
+}
+.row {
+	content: " ";
+	clear: both;
+	display: table;
+}
+.credits{
+	font-size: 0.85em;
+	text-align: left;
 }
 .company {
 	color: #818A8F;
@@ -127,42 +245,42 @@ img {
 }
 
 
-
-
 #hero_image {
 	background: url(../images/hero_image.jpg);
 	background-size: cover;
 	height: 90vh;
 }
 #introduction {
-	padding: 2em 0;
+	padding: 2em 0em;
 }
 #facts_statistics {
 	background-color: #d1d4d3;
-	padding: 2em 0;
+	padding: 2em 0em;
 }
 #video {
 	background-color: #333132;
 }
-#stories {
-	width: 30em;
-	margin: auto;
-}
 #narrators {
+	width: 800px;
 	background-color: #d1d4d3;
 	padding: 1em;
 }
+#caption {
+	text-align: left;
+	margin: 1.25em 4em;
+}
 #credits {
+	width: 300px;
 	background-color: #d1d4d3;
-	padding: 1em 0 0;
+	padding: 2em;
+	margin-right: 0em;
 }
 #organizations {
 	background-color: #ffffff;
-	padding: 1em 0;
-	margin: 2em 0 0 0;
+	padding: 0em 0em 2em;
 }
 #footer {
 	background-color: #333132;
-	padding: 1em 0;
+	padding: 1em 0em;
 	margin-top: 0em;
 }
