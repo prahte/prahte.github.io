@@ -1,0 +1,258 @@
+* {
+	margin:0;
+	padding:0;
+	/*box-sizing:border-box;*/
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+
+header {
+	background-color: #69923A;
+	padding: 0em;
+	text-align: center;
+}
+body {
+	background-color: #ffffff;
+	color: #414042;
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.5em;
+	text-align: center;
+	max-width: 1200px;
+	margin: auto;
+}
+section {
+	clear: both;
+}
+h1 {
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 3em;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+h2 {
+	color: #000000;
+	font-size: 1.5em;
+	font-weight: normal;
+	margin-bottom: 0.5em;
+}
+h3 {
+	color: #818A8F;
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 1.5em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 1em 0em 0em;
+	margin: 0.5em 0em;
+}
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+article {
+	padding-bottom: 48px;
+}
+figcaption {
+	font-size: 0.85em;
+}
+nav {
+	background-color: #69923A;
+}
+a {
+	color: #0098DB;
+	font-weight: bold;
+	text-decoration: none;
+	margin-right: 0;
+}
+a:visited {
+	color: #0098DB;	
+}
+a:hover {
+	color: #EBB700;
+}
+a:active {
+	color: #0098DB;
+}
+nav a:link {
+	background-color: #69923A;
+	color: white;
+	font-weight: normal;
+	text-decoration: none;
+	display: inline-block;
+	float: center;
+	padding: 1em;
+}
+nav a:visited {
+	color: #ffffff;
+}
+nav a:hover {
+	background-color: #557630;
+}
+nav a:active {
+	color: #ffffff;
+}
+footer {
+	color: #ffffff;
+	font-size: 0.85em;
+	font-weight: lighter;
+	background-color: #333132;
+	padding: 1em 0em 2em;
+}
+address {
+	color: #ffffff;
+	font-style: normal;
+	font-weight: lighter;
+}
+img {
+	width: 100%;
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+.important{
+	font-size: 1.25em;
+	font-weight: lighter;
+	text-align: left;
+	padding: 1em 6em;
+}
+.facts {
+	width: 20em;
+	padding: 1.5em;
+	margin: 0.5em;
+	display: inline-block;
+	float: center;
+}
+.infographics {
+	width: auto;
+	height: 5em;
+	padding-top: 0em;
+	margin: 1em;
+}
+.video {
+	width: 800px;
+	margin-top: 2em;
+}
+.reversetext{
+	color: #ffffff;
+	font-weight: lighter;
+	padding-bottom: 1em;
+}
+.button1 {
+	background-color: #005293;
+	padding: 0.5em 1.5em;
+	margin: 1em 0em 2em;
+	display: inline-block;
+}
+.feature {
+	float: left;
+	width: 61.33%;
+	padding: 0 32px;
+	margin: auto;
+	font-size: 1.25em;
+	text-align: left;
+	/*background-color: orange;*/
+}
+.stories {
+	float: right;
+	width: 28%;
+	padding: 0 32px;
+	margin: auto;
+	text-align: left;
+	/*background-color: yellow;*/
+}
+.titles {
+	color: #005293;
+	font-size: 1.25em;
+	font-weight: bold;
+	line-height: normal;
+	text-transform: none;
+	margin-bottom: 0.5em;
+}
+.speakers {
+	margin: 1em auto 0em;	
+	height: 15em;
+	width: auto;
+}
+.logos {
+	width: auto;
+	height: 3em;
+	padding-top: 0em;
+	margin: 1em;
+}
+.fancy {
+	color: #69923A;
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 1.75em;
+	font-weight: lighter;
+	margin-top: 1em;
+}
+.success {
+	color: #818A8F;
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 2em;
+	text-align: left;
+	margin: 1em 0em 1em 1em;
+}
+.credits {
+	font-size: 0.85em;
+	text-align: left;
+}
+
+
+#hero_image {
+	background: url(../images/hero_image.jpg);
+	background-size: cover;
+	height: 90vh;
+}
+#introduction {
+	padding: 2em 0em;
+}
+#facts_statistics {
+	background-color: #d1d4d3;
+	padding: 2em 0em;
+}
+#video {
+	background-color: #333132;
+}
+#container {
+	display: table;
+	background-color: #d1d4d3;
+}
+#narrators {
+	background-color: #d1d4d3;
+	float: left;
+	width: 736px;
+	padding: 48px 32px;
+}
+#caption {
+	text-align: left;
+	margin: 1.25em 4em;
+}
+#credits {
+	background-color: #d1d4d3;
+	float: right;
+	width: 336px;
+	padding: 48px 32px;
+}
+#organizations {
+	background-color: #ffffff;
+	padding: 1em 0em 2em;
+}
+#company {
+	color: #818A8F;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0.5em;
+}
+#copyright {
+	margin: 1em 0em 1em;
+}
