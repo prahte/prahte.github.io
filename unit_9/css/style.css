@@ -12,6 +12,7 @@ body {
 	font-weight: normal;
 	line-height: 1.5em;
 	text-align: center;
+/*	width: 480px;*/
 }
 header {
 	background-image: linear-gradient(#69923A,#589199,#589199);
@@ -242,8 +243,7 @@ label {
 	font-size: 1.125em;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
-	color: #ffffff;
-	background-color: #ffffff;
+	background-color: #005293;
 	display: block;
 }
 #logos_break {
@@ -337,12 +337,19 @@ label {
 		font-weight: normal;
 	}
 	.facts {
-		margin: 1em 0em;
+		margin: 1em 0em 0em;
 	}
 	#intro_video {
-		background-color: #ffffff;
-		max-width: 100%;
-		padding: 0em;
+		padding: 0em 0em 3.5em;
+	}
+	#click_here{
+		font-size: 1em;
+	}
+	#featured_in{
+		font-size: 1em;
+	}
+	#facts_title{
+		font-size: 1em;
 	}
 }
 @media only screen and (max-width: 850px) {
