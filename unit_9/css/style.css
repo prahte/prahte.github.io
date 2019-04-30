@@ -65,7 +65,7 @@ a:active {
 	color: #0098DB;
 }
 nav a {
-	color: white;
+	color: #c3d9d7;
 	font-weight: normal;
 	text-decoration: none;
 	display: inline-block;
@@ -73,13 +73,13 @@ nav a {
 	margin: 1em 0em;
 }
 nav a:visited {
-	color: #ffffff;
+	color: #c3d9d7;
 }
 nav a:hover {
 	background-color: #557630;
 }
 nav a:active {
-	color: #ffffff;
+	color: #c3d9d7;
 }
 footer {
 	color: #ffffff;
@@ -148,7 +148,6 @@ label {
 	padding: 1em;
 	margin: 1em;
 	display: inline-table;
-/*	float: center;*/
 }
 .infographics {
 	width: 108px;
@@ -229,21 +228,40 @@ label {
 #introduction {
 	background-color: #ffffff;
 	max-width: 100%;
-	padding: 3.5em 0em;
+	padding: 5.25em 0em;
 }
 #intro_video {
 	background-color: #37424a;
 	max-width: 100%;
-	padding: 3.5em 0em;
+	padding: 3.5em 0em 5.25em;
+}
+#click_here {
+	margin: 1.75em auto 0em;
+	padding: 0.75em 1em;
+	max-width: 288px;
+	font-size: 1.125em;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	color: #ffffff;
+	background-color: #ffffff;
+	display: block;
 }
 #logos_break {
 	display: inline-block;
 }
 #facts_title {
-	margin: 0em;
+	margin: 0em auto;
+	padding: 0.75em 1em;
+	max-width: 288px;
+	font-size: 1.125em;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	color: #ffffff;
+	background-color: #5e6a71;
+	display: block;
 }
 #facts_statistics {
-	background-color: rgba(0, 159, 218, 0.2);
+	background-color: #d1d4d3;
 	max-width: 100%;
 	clear: both;
 	padding: 3.5em 0em;
@@ -265,7 +283,18 @@ label {
 	background-color: #ccdbae;
 }
 #video_produced {
-	color: #69923A;
+	color: #818a8f;
+}
+#featured_in {
+	margin: 0em auto 2.5em;
+	padding: 0.75em 1em;
+	max-width: 288px;
+	font-size: 1.125em;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	color: #ffffff;
+	background-color: #69923A;
+	display: block;
 }
 #produced_by {
 	padding: 3.5em 0em 2em;
