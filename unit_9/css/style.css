@@ -3,12 +3,10 @@
 	padding:0;
 	/*box-sizing:border-box;*/
 }
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
-
 body {
 	color: #414042;
-	font-family: Roboto, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 1.5em;
@@ -19,7 +17,7 @@ header {
 }
 h1 {
 	color: #FFFFFF;
-	font-family: "Roboto Slab", sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-size: 3.25em;
 	font-weight: normal;
 	text-transform: uppercase;
