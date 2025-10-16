@@ -1,0 +1,71 @@
+<!-- # $dist_location: /usr/local/omega/packages/control/packages/search/search.html root sysadmin 0755 $ -->
+<!-- # $Id: search.html,v 1.4 2002/11/07 22:08:58 brunelle Exp $ -->
+
+<html>
+  <head>
+    <title>Simple Search Engine</title>
+
+</head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    <h1 align="center">Simple Search Engine</h1>
+
+    <p>Use the form below to search through the files at this web site</p>
+    <hr size="7" width="75%">
+    <form method="post" action="/cgi-bin/search">
+      <table align="center" border="0" summary="search parameters">
+        <!--
+             If you want to use the ability to select the directory in
+             which to search you should uncomment the following and
+             update search.pl so that $emulate_matts_code is 0 and
+             @subdirs is a list of the subdirectories you want to search
+             in the same order as you have them in the 'select' below.
+        -->
+        <!--
+        <tr>
+          <td>Where to search : </td>
+          <td>
+            <select name="directory">
+               <option value="0" selected="selected">
+                   All Documents
+               </option>
+               <option value="1">
+                   Manuals
+               </option>
+               <option value="2">
+                   Other Stuff
+               </option>
+            </select>
+          </td>
+        </tr> 
+        -->
+	<tr>
+	  <td>Text to Search For:</td>
+	  <td><input type="text" name="terms" size="40"></td>
+	</tr>
+	<tr>
+	  <td>Look for:</td>
+	  <td><select name="boolean">
+	      <option value="AND">All Words</option>
+	      <option value="OR">Any Word</option>
+	    </select></td>
+	</tr>
+	<tr>
+	  <td>Case:</td>
+	  <td><select name="case">
+	      <option>Insensitive</option>
+	      <option>Sensitive</option>
+	    </select></td>
+	</tr>
+	<tr>
+	  <td colspan="2"><input type="submit" value="Search!">
+	    <input type="reset"></td>
+	</tr>
+      </table>
+    </form>
+    <hr size="7" width="75%">
+    <p>Simple Search copyright &copy; London Perl Mongers
+      and can be found at 
+      <a href="http://nms-cgi.sourceforge.net">nms</a>.</p>
+  <map name="Map"><area shape="rect" coords="43,29,112,99" href="http://www.co.dekalb.ga.us" target="_blank"><area shape="rect" coords="120,28,180,96" href="http://www.ditc.us" target="_blank"><area shape="rect" coords="187,30,289,95" href="http://www.dcvb.org" target="_blank"><area shape="rect" coords="292,18,364,101" href="http://www.woaolympians.com" target="_blank"><area shape="rect" coords="364,32,430,93" href="http://www.fnt-usa.org" target="_blank"><area shape="rect" coords="433,28,503,100" href="http://www.usatfgeorgia.org" target="_blank"><area shape="rect" coords="506,38,589,103" href="http://www.mindspring.com/%7Edcarts/" target="_blank"><area shape="rect" coords="593,41,728,95" href="http://www.dekalbmedicalcenter.org" target="_blank">
+</map></body>
+</html>

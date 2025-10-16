@@ -1,0 +1,25 @@
+body { font: normal 1em/1.5em "Lucida Grande", arial, helvetica, sans-serif; color: #333; }
+	
+ul { list-style-type: none; margin: 0 0 1em 0; padding: 0; }
+ol { list-style-type: decimal; list-style-position: inside; margin: 0 0 1em 0; padding: 0; }
+
+h1 { font-size: 1.2em; line-height: 1.1em; margin: 0 0 .25em 0; }
+h2 { font-size: 1.15em; line-height: 1.2em; margin: 0 0 .4em 0; }
+h3 { font-size: 1.1em; line-height: 1.2em; margin: 0 0 .5em 0; }
+h4 { font-size: .95em; line-height: 1.2em; margin: 0 0 .6em 0; }
+h5 { font-size: .85em; line-height: 1.3em; margin: 0 0 .6em 0; }
+h6, th { font-size: .8em; line-height: 1.4em; margin: 0 0 .2em 0; }
+p { font-size: .7em; line-height: 1.6em; margin: 0 0 .9em 0; padding: 0; }
+li { margin: 0 0 .8em 0; padding: 0; }
+
+table { border-bottom: 1px solid #666; border-right: 1px solid #666; margin: 0 0 1em 0; padding: 0; width: 100%; }
+td, th { border-top: 1px solid #666; border-left: 1px solid #666; padding: 4px; margin: 0; vertical-align: top; }
+
+a { text-decoration: underline; color: #BF5C43; }
+a:link { text-decoration: underline; color: #BF5C43; }
+a:visited { text-decoration: underline; color: #BF5C43; }
+a:hover { text-decoration: none; color: #D13C13; }
+a:active { text-decoration: none; color: #D13C13;}
+
+.red-bullet { background: transparent url(../images/bullet-reddisc.gif) no-repeat 0em .5em; padding: 0 0 0 10px; margin-left: 5px; }
+.indented { padding: 0 0 0 10px; }

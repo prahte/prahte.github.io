@@ -1,0 +1,39 @@
+.style1 {
+	color: #990000;
+	font-weight: bold;
+}
+
+.gallerytitle {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color:#CC0000;
+	font-size:1.0em;
+	font-weight: bold;
+}
+
+.photocredit {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #003366;
+	font-size: .9em;
+	font-weight: normal;
+}
+.caption {
+	font-family: Geneva, Arial, Helvetica, sans-serif; 
+	color:#003366; 
+	font-size: .8em;
+}
+.gallery p {
+	font: .8em Verdana, Arial, Helvetica, sans-serif;
+	margin-left: 30px;
+}
+.gallery a:link, .gallery a:visited {
+	color:#CC0000;
+}
+.gallery a:hover, .gallery a:active, .gallery a:focus {
+	color: #003366;
+	text-decoration: none;
+}.galleryli {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #2F7A34;
+	font-size: 0.9em;
+	font-weight: normal;
+}

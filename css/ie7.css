@@ -1,0 +1,6 @@
+.clearfix { zoom : 1; }
+a#handballRightLink img { float: left; }
+#sidebar #principal-partners li, #sidebar #partner-logos li { left: 0; top: 0; }
+#olympicCities dd#candidateCitiesBody { top: 31px; }
+#content .body-header img { float: left; }
+#left-nav ul#main-nav li a { padding-top: 9px; }

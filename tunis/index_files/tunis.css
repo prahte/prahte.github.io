@@ -1,0 +1,156 @@
+body {
+	font: 100.01% Verdana, Arial, Helvetica, sans-serif;
+	background: #93A451 url(/tunis/images/tunis_back_dgr2.jpg) repeat-y top center;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+#holder {
+     margin: 0 auto;
+     padding: 0;
+     width: 758px;
+     text-align: left;
+	 padding-left: 4px;
+}
+#header {
+	margin-left: -1px;
+}
+
+/* main area styles */
+#content {
+	padding: 10px 20px 10px 30px;
+}
+#content h1 {
+	font: bold 120% Georgia, "Times New Roman", Times, serif;
+	color: #677835;
+}
+#content h2 {
+	font: bold 110% Georgia, "Times New Roman", Times, serif;
+	color: #AD4E0F;
+}
+#content h3 {
+	font: bold 105% Georgia, "Times New Roman", Times, serif;
+	color: #677835;
+}
+#content h4 {
+	font: bold 100% Georgia, "Times New Roman", Times, serif;
+	color: #AD4E0F;
+}
+#content p, #content ul, #content ol {
+	font: 80%/130% Verdana, Arial, Helvetica, sans-serif;
+}
+#content a:link, #content a:visited {
+	text-decoration: underline;
+	color: #C30;
+}
+#content a:hover, #content a:active, #content a:focus {
+	text-decoration: none;
+	color: #345888;
+}
+#content img {
+	border: 1px solid #333;
+}
+
+/* navigation styling */
+#nav {
+	vertical-align: top;
+	padding-left: 10px;
+	padding-top: 20px;
+	width: 215px;
+}
+#nav ul {
+	padding: 0;
+	margin: 25px 0 0;
+	list-style-type: none;
+	font-size: 80%;
+}
+#nav li {
+	padding: 0;
+	margin: 0 0 1px 8px;
+}
+#nav li a:link, #nav li a:visited {
+	display: block;
+	color: #333;
+	background: #CCC;
+	text-decoration: none;
+	margin: 1px 0 2px;
+	padding: 2px 2px 2px 5px;
+	border: solid 1px #333;
+	width: 95%;
+}
+#nav li a:hover, #nav li a:active, #nav li a:focus {
+	background: #C30;
+	color: #FFF;
+}
+#footer {
+	background: #C35A16;
+	margin: 0 2px 0 -1px;
+	padding: 5px;
+	border-top: 6px solid #93A451;
+	border-bottom: 1px solid #93A451;
+}
+#footer p {
+	margin: 0;
+	padding: 10px 0;
+	font-size: 65%;
+	color: #FFF;
+	text-align: center;
+	line-height: 130%;
+}
+#footer a:link, #footer a:visited {
+	color: #FFF;
+	text-decoration: underline;
+}
+#footer a:hover, #footer a:active, #footer a:focus {
+	color: #DEDEDE;
+	text-decoration: none;
+}
+
+/* here are the hacks */
+
+/*\*//*/
+#content {
+	padding-top: 25px;
+	padding-left: 45px;
+}
+/* The above is seen only by IE Mac */
+
+/* end hacks */
+
+/* miscellaneous classes */
+.fltrt {
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	/*border: 1px solid #333;*/
+}
+.fltlft {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	/*border: 1px solid #333;*/
+}
+.brclear { 
+     clear:both; 
+     height:0; 
+     margin:0;
+     font-size: 1px;
+     line-height: 0;
+}
+
+/* form styles 
+#content form {
+	border: 1px solid #CCC;
+	padding: 10px;
+}
+#content form input, #content form textarea {
+	color: #333;
+	border: 1px solid #5288B6;
+	padding: 1px;
+	background: #CCC;
+}
+#content form input:focus, #content form input:active, #content form textarea:focus, #content form textarea:active {
+	background-color: #345888;
+	color: #FFF;
+}
+*/

@@ -1,0 +1,4 @@
+#masthead { background-image: url(/images/bkgd-masthead-beijing.jpg); }
+#ATRswfBanner, #ATRBanner, #OlympicCongress, #handballRightLink, #competitions { display: none; }
+#masthead h1 { margin-bottom: 30px; }
+#masthead a#beijingBlogLink { display: none; }

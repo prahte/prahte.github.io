@@ -1,0 +1,7 @@
+body { margin: 0; padding: 0; color: #000; font: normal 9pt/12pt arial, helvetica, sans-serif; }
+#policies-wrapper { padding: 10pt; border: 1px solid #000; width: 90%; margin: 0 auto; }
+#policies-wrapper h6 { font-size: 12pt; line-height: 14pt; margin: 0 0 10pt 0; }
+#policies-wrapper ol { list-style-type: decimal; list-style-position: inside; margin: 0 0 5pt 0; padding: 0; }
+#policies-wrapper p, #policies-wrapper p  { margin: 0 0 5pt 0; padding: 0; }
+#policies-wrapper p.signature-line { border-bottom: 1pt solid #000; width: 100%; padding-top: 10pt; }
+.bold { font-weight: bold; }

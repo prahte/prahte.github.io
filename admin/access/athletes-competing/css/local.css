@@ -1,0 +1,5 @@
+#athletesCompetingList dt { background-color: #b3d5f8; color: #003C79; font-size: 1.4em; font-weight: bold; padding: 3px 10px; }
+#athletesCompetingList dd li { border-bottom: 1px solid #b0b0b0; border-top: 1px solid #b0b0b0; font-size: .8em; margin: 0 0 5px 0; padding: 5px 10px; }
+#athletesCompetingList dd li em { color: #727272; display: block; }
+#compMonth, #compDay, #compYear { margin-right: 5px; width: auto; }
+#dateWrapper strong { padding-left: 10px; }

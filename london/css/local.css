@@ -1,0 +1,4 @@
+#masthead { background-image: url(/images/bkgd-masthead-london.jpg); }
+#masthead h1 a { padding: 170px 0 0; }
+#masthead a#londonBlogLink { display: none; }
+#ATRswfBanner, #ATRBanner, #OlympicCongress, #handballRightLink, #competitions { display: none; }

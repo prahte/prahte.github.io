@@ -1,0 +1,239 @@
+<?php
+define("RootRoute", substr(preg_replace("{(\/[^\/]+)|([^\/]*\/[^\/]*$)}", "../", $_SERVER['REQUEST_URI']), 3));
+include(RootRoute."includes/constants.php");
+if(!isset($_REQUEST['gallery'])) { $GalleryRequest = 1; } else { $GalleryRequest = $_REQUEST['gallery']; }
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Dekalb Classic - Photo Gallery</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+a img { border: none; }
+.style2 {color: #0000CC}
+#galleryTable { border: 1px solid #666; width: 98%; font: normal .7em/1.5em arial, helvetica, sans-serif; color: #333; background-color: #f5f5f5; }
+#galleryTable td { text-align: center; padding: 3px; border-left: 1px solid #fff; border-top: 1px solid #fff; border-bottom: 1px solid #c4c4c4; border-right: 1px solid #c4c4c4; }
+#galleryTable img { border: 1px solid #333; padding: 1px; background-color: #fff; }
+.galleryLink, .galleryText { font: bold .7em/1.5em arial, helvetica, sans-serif; color: #333; text-align: center; }
+.galleryLink a { margin: 0 20px; color: #FF0000;}
+.galleryLink a:link, .galleryLink a:visited { text-decoration: none; }
+.galleryLink a:hover, .galleryLink a:active { text-decoration: underline; }
+.galleryText { color: #333; text-align: center; font-style: italic; }
+-->
+</style>
+<link href="gallery.css" rel="stylesheet" type="text/css">
+<link href="/dekalb.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+a img { border: none; }
+.style3 {font-size: 12px}
+.style4 {font-size: 11px}
+-->
+</style>
+<script type="text/javascript" src="/includes/js/prototype.js"></script>
+<script type="text/javascript" src="/includes/js/scriptaculous.js?load=effects"></script>
+<script type="text/javascript" src="/includes/js/lightbox.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="/styles/lightbox.css" />
+</head>
+
+<body onLoad="MM_preloadImages('../images/index_11-over.gif','../images/index_17-over.gif','../images/index_21-over.gif','../images/index_23-over.gif','../images/index_24-over.gif','../images/index_25-over.gif','../images/index_26-over.gif','../images/index_04-over.gif','../images/index_05-over.gif','../images/index_06-over.gif','../images/index_07-over.gif','../images/index_08-over.gif')">
+<div align="center">
+  <table width="759" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF"> <tr align="left" valign="top"> 
+      <td colspan="3"><a href="/index.shtml"><img src="/images/logobann.jpg" alt="Dekalb International Prep Classic" width="759" height="136" border="0"></a></td>
+    </tr><tr><td colspan="3" id="bar"><p style="text-align:right; "><span class="fltlft"><a href="/index.php">Home</a></span><a href="mailto:dleininger@ditc.us">Contact Us</a></p></td>
+	</tr>
+    <tr align="left" valign="top"> 
+      <td height="52" colspan="2"><table width="759" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td width="232" valign="top" align="left">
+                <div id="topleft">
+                    <p>Event Date -- May 30, 2009</p>
+                    <img height="48" width="152" alt="Georgia Tech" src="/images/gatech_logo.jpg"/>
+                </div>
+            </td>
+            <td width="54" align="left" valign="top"><IMG SRC="../images/index_03.gif" WIDTH=27 HEIGHT=82 ALT=""></td>
+            <td width="75" align="left" valign="top"><A HREF="../events.htm"
+				ONMOUSEOVER="MM_swapImage('index_04','','../images/index_04-over.gif',1)"
+				ONMOUSEOUT="MM_swapImgRestore()"><IMG NAME="index_04" SRC="../images/index_04.gif" WIDTH=69 HEIGHT=82 BORDER=0 ALT=""></A></td>
+            <td width="76" align="left" valign="top"><A HREF="../schedule.htm"
+				ONMOUSEOVER="MM_swapImage('index_05','','../images/index_05-over.gif',1)"
+				ONMOUSEOUT="MM_swapImgRestore()"><IMG NAME="index_05" SRC="../images/index_05.gif" WIDTH=73 HEIGHT=82 BORDER=0 ALT=""></A></td>
+            <td width="77" align="left" valign="top"><A HREF="../registration.htm"
+				ONMOUSEOVER="MM_swapImage('index_06','','../images/index_06-over.gif',1)"
+				ONMOUSEOUT="MM_swapImgRestore()"><IMG NAME="index_06" SRC="../images/index_06.gif" WIDTH=78 HEIGHT=82 BORDER=0 ALT=""></A></td>
+            <td width="50" align="left" valign="top"><A HREF="../qualifying.htm"
+				ONMOUSEOVER="MM_swapImage('index_07','','../images/index_07-over.gif',1)"
+				ONMOUSEOUT="MM_swapImgRestore()"><IMG NAME="index_07" SRC="../images/index_07.gif" WIDTH=79 HEIGHT=82 BORDER=0 ALT=""></A></td>
+            <td width="67" align="left" valign="top"><A HREF="/results.htm"
+				ONMOUSEOVER="MM_swapImage('index_08','','../images/index_08-over.gif',1)"
+				ONMOUSEOUT="MM_swapImgRestore()"><IMG SRC="../images/index_08.gif" ALT="" NAME="index_08" WIDTH=65 HEIGHT=82 BORDER=0></A></td>
+            <td width="90" align="left" valign="top"><IMG SRC="../images/index_09.gif" WIDTH=36 HEIGHT=82 ALT=""></td>
+            <td width="92" align="left" valign="top"><IMG SRC="../images/index_10.jpg" WIDTH=154 HEIGHT=82 ALT=""></td>
+          </tr>
+        </table></td>
+    </tr>
+    <tr> 
+    <td width="178" height="185" align="left" valign="top">
+	  	<table width="178" border="0" cellspacing="0" cellpadding="0" >
+          <tr> 
+				 <td id="nav">
+				 <ul>
+				 <li><a href="/ceremonies.htm">Opening Ceremonies</a></li>
+				  <li><a href="/hotel.htm">Hotel Accommodations</a></li>
+				  <li><a href="/meetvenue.htm">Meet Venue</a></li>
+				  <li><a href="/staffsponsors.htm">Staff / Sponsors</a></li>
+				  <li><a href="/aboutditc.htm">About ATLANTA DITC</a></li>
+				  <!--<li><a href="/polevault.htm">Pole Vaulting Clinic</a></li>-->
+				  <li><a href="/volunteer.htm">Volunteer Info</a></li>
+				  <li><a href="/gallery/index.htm">2004 Photo Gallery</a></li>
+				  <li><a href="/2005/index.htm">2005 Photo Gallery</a></li>
+				  <li><a href="/2006/index.php">2006 Photo Gallery</a></li>
+				  <li><a href="/2007/index.php">2007 Photo Gallery</a></li>
+				  <li><a href="/2008/index.php">2008 Photo Gallery</a></li>
+			<li><a href="/2009/index.php">2009 Photo Gallery</a></li>
+				  <a href="http://www.2009congress.olympic.org/" target="_blank" style="background-image: none; background-color: transparent;"><img src="/images/2009OlympCongrBanner.gif" width="130" height="300" alt="Virtual Olympic Congress" style="margin: 0 auto;" /></a>
+			<a href="http://www.aroundtherings.com/" target="_blank" style="background-image: none; background-color: transparent;"><img src="/images/ditc_banner.gif" width="120" height="240" alt="The Dekalb International Training Center - Dekalb's Sports Authority" style="margin: 10px auto 0 3px; border: 1px solid #6C230D;" /></a>
+
+				  </ul>
+				</td>
+          </tr>
+		  <tr> 
+				<td align="left" valign="top"><IMG SRC="../images/index_31.gif" WIDTH=178 HEIGHT=94 ALT=""></td>
+		  </tr>
+		</table>
+	</td>
+	<td align="left" valign="top" width="580" style="border: 1px solid #fff;" >
+				<p align="center" class="gallerytitle">
+				Photo Gallery<br>
+				<span class="style2">May 19, 2007<br>
+				DeKalb International Prep Classic (DIPC)</span>
+				</p>
+				
+				<?php
+				$dir = "images";
+				
+				$files_array = array();
+				
+				if (is_dir($dir)) {
+				// open directory stream
+				if ($dir_handler = opendir($dir)) { 
+					// loop thru files in directory & count
+					while (($file = readdir($dir_handler)) != false) {
+						// push all files except . and .. onto array
+						if (($file != ".") && ($file != ".."))
+							array_push($files_array, $file);
+					}
+				}
+				// close directory stream
+				closedir($dir_handler);
+				}
+				
+				$total = count($files_array);
+				if($total < 24) { $photoLimit = count($files_array); } else { $photoLimit = 24; }
+				$pageCount = round(($total / $photoLimit), 0);
+				
+				$pageStart = 0;
+				for ($i=0; $i<$pageCount; $i++) {
+					if(($i+1) == $pageCount) { $pageStop = $total; } else { $pageStop = $pageStart + $photoLimit; }
+					if($GalleryRequest == ($i+1)) { $grand_total = $pageStop; $startCount = $pageStart; }
+					$pageStart = $pageStart + $photoLimit;
+				}
+				
+				for ($i=0; $i<$pageCount; $i++) {
+					$galleryNumber = $i+1;
+					$galleryLink .= '<a href="index.php?gallery='.$galleryNumber.'">Gallery '.$galleryNumber.'</a> ';
+				}
+				
+				?>
+				<p class="galleryLink"><?=$galleryLink?></p>
+				
+				<p class="galleryText">Click on a photo to view a larger version</p>
+				
+				<table border="0" width="100%" cellspacing="0" cellpadding="0" id="galleryTable">
+				<?php
+				$cell_count = 0;
+				$cell_reset = 0;
+				$total = 0;
+				for ($i=$startCount; $i<$grand_total; $i++) {
+				?>
+				<?php $total++; ?>
+				<?php if($cell_reset == 0) { echo("<tr>"); }?>
+					<td>
+						<?php list($w, $h) = getimagesize("images/".$files_array[$i]);
+						if($w > 50) { $width = 50; $height = round(($h * $width)/($w)); } else { $width = $w; $height = $h; } ?>
+						<a href="images/<?=$files_array[$i]?>" rel="lightbox[DIPCphotos07]" title="The Dekalb International Prep Classic - May 19, 2007"><img src="images/<?=$files_array[$i]?>" width="<?=$width?>" height="<?=$height?>" alt="" border="0" /></a>
+						<?php #echo("<br>".$total); ?>
+					<?php if($total == $grand_total ) {
+						if($cell_count == 0) { echo("</td><td>&nbsp;</td><td>&nbsp;</td>"); }
+						if($cell_count == 1) { echo("</td><td>&nbsp;</td>"); }
+						if($cell_count == 2) { echo("</td>"); }
+					} else { echo("</td>"); } ?>
+				<?php 
+				$cell_count++;
+				$cell_reset++; 
+				if($cell_count == 3 || $total == $grand_total) { $cell_reset = 0; $cell_count = 0; echo("</tr>"); }  ?>
+				<?php ; } ?>
+				</table>
+				
+	</td>
+    </tr>
+    <tr> 
+     <td colspan="2" align="left" valign="top"><table width="759" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td align="left" valign="top"><img src="/images/index_37.gif" width="759" height="111" border="0" usemap="#Map"></td>
+          </tr>
+          <tr>
+            <td align="left" valign="top"><div align="center"><font color="#333333" size="1" face="Arial, Helvetica, sans-serif"><a href="../events.htm">Events</a> 
+                | <a href="../schedule.htm">Schedule</a> | <a href="../registration.htm">Registration</a> 
+                | <a href="../qualifying.htm">Qualifying Standards</a> | <a href="#" onClick="MM_openBrWindow('../DIPCResults.swf','results','toolbar=yes,status=yes,scrollbars=yes,resizable=yes,width=800,height=600')">Results</a> 
+                | <a href="../ceremonies.htm">Opening Ceremonies</a><br>
+                <a href="../hotel.htm">Hotel Accommodations</a> | <a href="../meetvenue.htm">Meet 
+                Venue</a> | <a href="../staffsponsors.htm">Staff &amp; Sponsors</a> | 
+                <a href="../aboutditc.htm">About DITC</a> | <!--<a href="../polevault.htm">Pole 
+                Vaulting Clinic</a> |--> <a href="../volunteer.htm">Volunteer Info</a><br>
+                <br>
+                Copyright 2005, Forging New Tomorrows, All Rights Reserved.<br>
+                Site Maintained and Hosted by: <a href="http://www.paperstreetllc.com" target="_blank">Paper Street LLC</a></font></div></td>
+          </tr>
+    </table>
+	</td>
+	</tr>
+</table>
+</div>
+<map name="event" id="event">
+  <area shape="rect" coords="12,3,151,33" href="../events.htm">
+</map>
+<map name="Map"><area shape="rect" coords="43,29,112,99" href="http://www.co.dekalb.ga.us" target="_blank"><area shape="rect" coords="120,28,180,96" href="http://www.ditc.us" target="_blank"><area shape="rect" coords="187,30,289,95" href="http://www.dcvb.org" target="_blank"><area shape="rect" coords="292,18,364,101" href="http://www.woaolympians.com" target="_blank"><area shape="rect" coords="364,32,430,93" href="http://www.fnt-usa.org" target="_blank"><area shape="rect" coords="433,28,503,100" href="http://www.usatfgeorgia.org" target="_blank"><area shape="rect" coords="506,38,589,103" href="http://www.mindspring.com/%7Edcarts/" target="_blank"><area shape="rect" coords="593,41,728,95" href="http://www.dekalbmedicalcenter.org" target="_blank">
+</map></body>
+</html>

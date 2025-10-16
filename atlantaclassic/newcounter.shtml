@@ -1,0 +1,554 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder V6.0.0 for Windows">
+<META name="IBM:HPB-Input-Mode" content="mode/flm; pagewidth=750; pageheight=900">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>DIPC Home</TITLE>
+<SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_ROV_50
+//
+//  Licensed Materials - Property of IBM
+//  5724-B09
+//  (C) Copyright IBM Corp. 1995, 2001 All Rights Reserved.
+//
+
+// HpbImgPreload:
+//
+function HpbImgPreload()
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=false,isN6=false,isIE=false;
+  if (document.all && appVer >= 4) isIE=true; else
+    if (document.getElementById && appVer > 4) isN6=true; else
+      if (document.layers && appVer >= 4) isNC=true;
+  if (isNC||isN6||isIE)
+  {
+    if (document.images)
+    {
+      var imgName = HpbImgPreload.arguments[0];
+      var cnt;
+      swImg[imgName] = new Array;
+      for (cnt = 1; cnt < HpbImgPreload.arguments.length; cnt++)
+      {
+        swImg[imgName][HpbImgPreload.arguments[cnt]] = new Image();
+        swImg[imgName][HpbImgPreload.arguments[cnt]].src = HpbImgPreload.arguments[cnt];
+      }
+    }
+  }
+}
+// HpbImgFind:
+//
+function HpbImgFind(doc, imgName)
+{
+  for (var i=0; i < doc.layers.length; i++)
+  {
+    var img = doc.layers[i].document.images[imgName];
+    if (!img) img = HpbImgFind(doc.layers[i], imgName);
+    if (img) return img;
+  }
+  return null;
+}
+// HpbImgSwap:
+//
+function HpbImgSwap(imgName, imgSrc)
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=false,isN6=false,isIE=false;
+  if (document.all && appVer >= 4) isIE=true; else
+    if (document.getElementById && appVer > 4) isN6=true; else
+      if (document.layers && appVer >= 4) isNC=true;
+  if (isNC||isN6||isIE)
+  {
+    if (document.images)
+    {
+      var img = document.images[imgName];
+      if (!img) img = HpbImgFind(document, imgName);
+      if (img) img.src = imgSrc;
+    }
+  }
+}
+var swImg; swImg=new Array;
+//-->
+</SCRIPT><SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_PLD_50
+HpbImgPreload('_HPB_ROLLOVER2', 'images/NavButEventsOrig.gif', 'images/NavButEventsRepl.gif');
+HpbImgPreload('_HPB_ROLLOVER10', 'images/NavButEntriesOrig.gif', 'images/NavButEntriesRepl.gif');
+HpbImgPreload('_HPB_ROLLOVER9', 'images/NavButVenueOrig.gif', 'images/NavButVenueRepl.gif');
+HpbImgPreload('_HPB_ROLLOVER8', 'images/NavButHotelOrig.gif', 'images/NavButHotelRepl.gif');
+HpbImgPreload('_HPB_ROLLOVER11', 'images/NavButOpenCerOrig.gif', 'images/NavButOpenCerRepl.gif');
+HpbImgPreload('_HPB_ROLLOVER7', 'images/NavButStaffOrig.gif', 'images/NavButStaffRepl.gif');
+HpbImgPreload('_HPB_ROLLOVER6', 'images/NavButStandardsOrig.gif', 'images/NavButStandardsRepl.gif');
+HpbImgPreload('_HPB_ROLLOVER5', 'images/NavButRegOrig.gif', 'images/NavButRegRepl.gif');
+HpbImgPreload('_HPB_ROLLOVER4', 'images/NavButScheduleOrig.gif', 'images/NavButScheduleRepl.gif');
+HpbImgPreload('_HPB_ROLLOVER3', 'images/NavButHomeOrig.gif', 'images/NavButHomeRepl.gif');
+HpbImgPreload('_HPB_ROLLOVER1', 'mif/NavButAboutOrig.gif', 'mif/NavButAboutRepl.gif');
+HpbImgPreload('_HPB_ROLLOVER12', 'images/NavButOpptysOrig.gif', 'images/NavButOpptysRepl.gif');
+//-->
+</SCRIPT>
+</head>
+<BODY background="images/DIPC Background Painting Transparent.gif">
+<DIV style="width : 106px;height : 18px;top : 708px;left : 19px;
+  position : absolute;
+  z-index : 25;
+" id="Layer25" align="center"><B><FONT color="#0000a0" face="Arial">VISITOR #</FONT></B></DIV>
+<DIV style="top : 735px;left : 32px;
+  position : absolute;
+  z-index : 24;
+  width : 74px;
+  height : 22px;
+" id="Layer23" align="center"><FONT color=#cc0033"><!--#exec cgi="/cgi-bin/countertest.cgi"--></FONT></DIV>
+<DIV style="top : 805px;left : 301px;
+  position : absolute;
+  z-index : 23;
+  width : 116px;
+  height : 29px;
+  visibility : visible;
+" id="Layer24"><IMG src="images/DCVBLogo.gif" width="146" height="63" border="0"></DIV>
+<DIV style="top : 192px;left : 208px;
+  position : absolute;
+  z-index : 17;
+  width : 391px;
+  height : 56px;
+  visibility : visible;
+" id="Layer11"></DIV>
+<DIV style="top : 235px;left : 541px;
+  position : absolute;
+  z-index : 16;
+  visibility : visible;
+" id="Layer10"></DIV>
+<DIV style="top : 140px;left : 160px;
+  position : absolute;
+  z-index : 15;
+  visibility : visible;
+" id="Layer9"></DIV>
+<DIV style="top : 0px;left : 1px;
+  position : absolute;
+  z-index : 12;
+  visibility : visible;
+" id="Layer18"></DIV>
+<DIV style="top : 5px;left : 56px;
+  position : absolute;
+  z-index : 1;
+  visibility : visible;
+" id="Layer1"></DIV>
+<DIV style="top : 32px;left : 69px;
+  position : absolute;
+  z-index : 2;
+  visibility : visible;
+" id="Layer2"></DIV>
+<DIV style="top : 133px;left : 6px;
+  position : absolute;
+  z-index : 3;
+  visibility : visible;
+" id="Layer3"></DIV>
+<DIV style="top : 278px;left : -2px;
+  position : absolute;
+  z-index : 4;
+  visibility : visible;
+" id="Layer4"></DIV>
+<DIV style="top : 305px;left : -11px;
+  position : absolute;
+  z-index : 5;
+  visibility : visible;
+" id="Layer5"></DIV>
+<DIV style="top : 337px;left : -5px;
+  position : absolute;
+  z-index : 6;
+  visibility : visible;
+" id="Layer6"></DIV>
+<DIV style="top : 364px;left : -5px;
+  position : absolute;
+  z-index : 7;
+  visibility : visible;
+" id="Layer7"></DIV>
+<DIV style="top : 398px;left : -1px;
+  position : absolute;
+  z-index : 13;
+  visibility : visible;
+" id="Layer19"></DIV>
+<DIV style="top : 642px;left : 8px;
+  position : absolute;
+  z-index : 8;
+  width : 132px;
+  height : 36px;
+  visibility : visible;
+" id="Layer8"></DIV>
+<DIV style="top : 567px;left : 515px;
+  position : absolute;
+  z-index : 9;
+  visibility : visible;
+" id="Layer13"></DIV>
+<DIV style="top : 809px;left : 562px;
+  position : absolute;
+  z-index : 10;
+  visibility : visible;
+" id="Layer14"></DIV>
+<DIV style="top : 643px;left : 192px;
+  position : absolute;
+  z-index : 11;
+  width : 62px;
+  height : 88px;
+  visibility : visible;
+" id="Layer17" align="center"></DIV>
+<DIV style="top : 137px;left : 7px;
+  position : absolute;
+  z-index : 14;
+  visibility : visible;
+" id="Layer22"></DIV>
+<DIV style="top : 148px;left : 171px;
+  position : absolute;
+  z-index : 18;
+  visibility : visible;
+" id="Layer16">
+<DIV>
+<TABLE border="0" width="608" cellpadding="0" cellspacing="0" height="116">
+  <TBODY>
+    <TR>
+      <TD><IMG src="images/wedgetopleft.gif" width="16" height="16" border="0"></TD>
+      <TD bgcolor=#cc0033"><IMG src="images/spacer.gif" width="12" height="16" border="0"></TD>
+      <TD bgcolor="#cc0033" width="370"><IMG src="images/spacer.gif" width="2" height="16" border="0"></TD>
+      <TD bgcolor=#cc0033" width="229"><IMG src="images/spacer.gif" width="12" height="16" border="0"></TD>
+      <TD><IMG src="images/wedgetopright.gif" width="16" height="16" border="0"></TD>
+    </TR>
+    <TR>
+      <TD bgcolor=#cc0033"><IMG src="images/spacer.gif" width="12" height="16" border="0"></TD>
+      <TD valign="top" align="left"></TD>
+      <TD align="center" colspan="2"><BR>
+      <B><FONT face="Arial" size="+4" color="#cc0033">WELCOME</FONT></B><BR>
+      </TD>
+      <TD bgcolor=#cc0033"><IMG src="images/spacer.gif" width="16" height="12" border="0"></TD>
+    </TR>
+    <TR>
+      <TD bgcolor=#cc0033"><IMG src="images/spacer.gif" width="16" height="48" border="0"></TD>
+      <TD></TD>
+      <TD align="left" width="330"><FONT face="Arial" size="+1" color="#660000"><BR>
+      to the official site of the DeKalb International Prep Classic. Our mission is to bring world-class track and field events to DeKalb County. We are inspired by the passionate pools of talents in the prep arena in this country and abroad.<BR>
+<BR>
+This is our first annual event and we would like you to explore the greatness
+that drives the competitive nature in all of us. </FONT></TD>
+      <TD align="center" width="199"><IMG src="images/DIPC Paintg Transparent.gif" width="161" height="243" border="0"></TD>
+      <TD bgcolor=#cc0033"><IMG src="images/spacer.gif" width="16" height="48" border="0"></TD>
+    </TR>
+    <TR>
+      <TD bgcolor=#cc0033"><IMG src="images/spacer.gif" width="16" height="12" border="0"></TD>
+      <TD valign="bottom" align="left"></TD>
+      <TD align="center" colspan="2"><BR>
+      <BR>
+      <FONT face="Arial" size="+2"><B><FONT color="#cc0033" size="+2">Murray Sanford, Meet Director</FONT></B></FONT><BR>
+      <DIV><FONT face="Arial" color="#660000">508 Jefferson Drive</FONT></DIV>
+<DIV><FONT face="Arial" color="#660000">Woodstock, GA 30188</FONT> <FONT face="Arial" color="#660000">US</FONT><BR>
+      <DIV><FONT face="Arial" color="#660000" >770.928.4950<BR>
+      <A href="mailto:murraysanford@att.net">murraysanford@att.net</A><BR>
+      <BR>
+      </FONT></DIV>
+      </DIV>
+      <FONT color="#000079" size="+1"><B>venue at</B></FONT><BR>
+      <IMG src="images/GATechSmall.gif" width="169" height="43" border="0"><BR>
+      <BR>
+      <IMG src="images/EventDateRedline.gif" width="252" height="44" border="0"></TD>
+      <TD bgcolor=#cc0033"><IMG src="images/spacer.gif" width="16" height="12" border="0"></TD>
+    </TR>
+    <TR>
+      <TD><IMG src="images/wedgebotleft.gif" width="16" height="16" border="0"></TD>
+      <TD bgcolor=#cc0033"><IMG src="images/spacer.gif" width="12" height="16" border="0"></TD>
+      <TD bgcolor=#cc0033" width="330"><IMG src="images/spacer.gif" width="1" height="16" border="0"></TD>
+      <TD bgcolor=#cc0033" width="199"><IMG src="images/spacer.gif" width="12" height="16" border="0"></TD>
+      <TD><IMG src="images/wedgebotright.gif" width="16" height="16" border="0"></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+</DIV>
+<DIV style="top : 222px;left : 523px;
+  position : absolute;
+  z-index : 19;
+  visibility : visible;
+" id="Layer12"></DIV>
+<DIV style="top : 790px;left : 51px;
+  position : absolute;
+  z-index : 20;
+  visibility : visible;
+" id="Layer15"></DIV>
+<DIV style="top : 574px;left : 0px;
+  position : absolute;
+  z-index : 21;
+  visibility : visible;
+" id="Layer20"></DIV>
+<DIV style="top : 804px;left : 388px;
+  position : absolute;
+  z-index : 22;
+  visibility : visible;
+" id="Layer21"></DIV>
+<DIV style="top : 636px;left : 45px;
+  position : absolute;
+  z-index : 26;
+  visibility : visible;
+" id="Layer26"></DIV>
+<DIV style="top : 779px;left : 468px;
+  position : absolute;
+  z-index : 27;
+  visibility : visible;
+" id="Layer27"><IMG src="images/WOA logo2.gif" width="93" height="137" border="0"></DIV>
+<DIV style="top : 1px;left : 1px;
+  position : absolute;
+  z-index : 28;
+  visibility : visible;
+" id="Layer28"></DIV>
+<DIV style="top : 9px;left : 161px;
+  position : absolute;
+  z-index : 29;
+  visibility : visible;
+" id="Layer29"></DIV>
+<DIV style="top : 168px;left : 1px;
+  position : absolute;
+  z-index : 30;
+  visibility : visible;
+" id="Layer30"></DIV>
+<DIV style="top : 158px;left : 8px;
+  position : absolute;
+  z-index : 31;
+  visibility : visible;
+" id="Layer31"></DIV>
+<DIV style="top : 5px;left : 21px;
+  position : absolute;
+  z-index : 32;
+  visibility : visible;
+" id="Layer32"></DIV>
+<DIV style="top : 4px;left : 110px;
+  position : absolute;
+  z-index : 33;
+  visibility : visible;
+" id="Layer33"></DIV>
+<DIV style="top : 402px;left : 7px;
+  position : absolute;
+  z-index : 34;
+  visibility : visible;
+" id="Layer34"></DIV>
+<DIV style="top : 5px;left : 21px;
+  position : absolute;
+  z-index : 35;
+  visibility : visible;
+" id="Layer35"></DIV>
+<DIV style="top : 5px;left : 658px;
+  position : absolute;
+  z-index : 36;
+  visibility : visible;
+" id="Layer36"></DIV>
+<DIV style="top : 4px;left : 644px;
+  position : absolute;
+  z-index : 37;
+  visibility : visible;
+" id="Layer37"></DIV>
+<DIV style="top : 4px;left : 657px;
+  position : absolute;
+  z-index : 38;
+  visibility : visible;
+" id="Layer38"></DIV>
+<DIV style="top : -4px;left : 0px;
+  position : absolute;
+  z-index : -1;
+  visibility : visible;
+" id="Layer39"></DIV>
+<DIV style="top : 0px;left : 1px;
+  position : absolute;
+  z-index : 39;
+  visibility : visible;
+" id="Layer40"></DIV>
+<DIV style="top : 0px;left : 0px;
+  position : absolute;
+  z-index : 40;
+" id="Layer41"><IMG src="images/DIPCLogo.jpg" width="785" height="130" border="0"></DIV>
+<DIV style="top : 12px;left : 25px;
+  position : absolute;
+  z-index : 41;
+  visibility : visible;
+" id="Layer42"></DIV>
+<DIV style="top : 6px;left : 26px;
+  position : absolute;
+  z-index : 42;
+  visibility : visible;
+" id="Layer43"></DIV>
+<DIV style="top : 9px;left : 661px;
+  position : absolute;
+  z-index : 43;
+  visibility : visible;
+" id="Layer44"></DIV>
+<DIV style="top : 6px;left : 25px;
+  position : absolute;
+  z-index : 44;
+" id="Layer45"><IMG src="images/RunningManLeftTransparent.gif" width="90" height="120" border="0"></DIV>
+<DIV style="top : 6px;left : 672px;
+  position : absolute;
+  z-index : 45;
+" id="Layer46"><IMG src="images/RunningManRight.gif" width="90" height="120" border="0"></DIV>
+<DIV style="top : 201px;left : 8px;
+  position : absolute;
+  z-index : 46;
+  visibility : visible;
+" id="Layer47"></DIV>
+<DIV style="top : 289px;left : 8px;
+  position : absolute;
+  z-index : 47;
+  visibility : visible;
+" id="Layer48"></DIV>
+<DIV style="top : 332px;left : 8px;
+  position : absolute;
+  z-index : 48;
+  visibility : visible;
+" id="Layer49"></DIV>
+<DIV style="top : 245px;left : 8px;
+  position : absolute;
+  z-index : 49;
+  visibility : visible;
+" id="Layer50"></DIV>
+<DIV style="top : 597px;left : 8px;
+  position : absolute;
+  z-index : 50;
+  visibility : visible;
+" id="Layer51"></DIV>
+<DIV style="top : 787px;left : 134px;
+  position : absolute;
+  z-index : 51;
+  visibility : visible;
+" id="Layer52"></DIV>
+<DIV style="top : 790px;left : 259px;
+  position : absolute;
+  z-index : 52;
+  visibility : visible;
+" id="Layer53"></DIV>
+<DIV style="top : 787px;left : 97px;
+  position : absolute;
+  z-index : 53;
+" id="Layer54"><IMG src="images/CountyLogo.gif" width="93" height="99" border="0"></DIV>
+<DIV style="top : 629px;left : 50px;
+  position : absolute;
+  z-index : 54;
+  visibility : visible;
+" id="Layer55"></DIV>
+<DIV style="top : 790px;left : 213px;
+  position : absolute;
+  z-index : 55;
+" id="Layer56"><IMG src="images/DITCLogo.gif" width="77" height="89" border="0"></DIV>
+<DIV style="top : 805px;left : 582px;
+  position : absolute;
+  z-index : 56;
+" id="Layer57"><IMG src="images/FNTLogo.gif" width="78" height="56" border="0"></DIV>
+<DIV style="top : 376px;left : 9px;
+  position : absolute;
+  z-index : 57;
+  visibility : visible;
+" id="Layer58"></DIV>
+<DIV style="top : 420px;left : 9px;
+  position : absolute;
+  z-index : 58;
+  visibility : visible;
+" id="Layer59"></DIV>
+<DIV style="top : 463px;left : 9px;
+  position : absolute;
+  z-index : 59;
+  visibility : visible;
+" id="Layer60"></DIV>
+<DIV style="top : 463px;left : 9px;
+  position : absolute;
+  z-index : 60;
+  visibility : visible;
+" id="Layer61"></DIV>
+<DIV style="top : 463px;left : 9px;
+  position : absolute;
+  z-index : 61;
+  visibility : visible;
+" id="Layer62"></DIV>
+<DIV style="top : 507px;left : 8px;
+  position : absolute;
+  z-index : 62;
+  visibility : visible;
+" id="Layer63"></DIV>
+<DIV style="top : 463px;left : 8px;
+  position : absolute;
+  z-index : 63;
+  visibility : visible;
+" id="Layer64"></DIV>
+<DIV style="top : 463px;left : 10px;
+  position : absolute;
+  z-index : 64;
+  visibility : visible;
+" id="Layer65"></DIV>
+<DIV style="top : 376px;left : 8px;
+  position : absolute;
+  z-index : 65;
+  visibility : visible;
+" id="Layer66"></DIV>
+<DIV style="top : 804px;left : 678px;
+  position : absolute;
+  z-index : 66;
+" id="Layer67"><IMG src="images/USATFGALogo.gif" width="140" height="101" border="0"></DIV>
+<DIV style="top : 420px;left : 8px;
+  position : absolute;
+  z-index : 67;
+  visibility : visible;
+" id="Layer68"></DIV>
+<DIV style="top : 199px;left : 13px;
+  position : absolute;
+  z-index : 79;
+" id="Layer77"><A href="events.htm" id="_HPB_ROLLOVER2" onmouseout="HpbImgSwap('_HPB_ROLLOVER2', 'images/NavButEventsOrig.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER2', 'images/NavButEventsRepl.gif');"><IMG src="images/NavButEventsOrig.gif" width="132" height="36" border="0" name="_HPB_ROLLOVER2" alt="LinkEvents"></A></DIV>
+<DIV style="top : 421px;left : 13px;
+  position : absolute;
+  z-index : 78;
+" id="Layer76"><A href="entries.html" id="_HPB_ROLLOVER10" onmouseout="HpbImgSwap('_HPB_ROLLOVER10', 'images/NavButEntriesOrig.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER10', 'images/NavButEntriesRepl.gif');"><IMG src="images/NavButEntriesOrig.gif" width="132" height="36" border="0" name="_HPB_ROLLOVER10" alt="LinkEntries"></A></DIV>
+<DIV style="top : 376px;left : 13px;
+  position : absolute;
+  z-index : 77;
+  visibility : visible;
+" id="Layer78"><A href="Venue.html" id="_HPB_ROLLOVER9" onmouseout="HpbImgSwap('_HPB_ROLLOVER9', 'images/NavButVenueOrig.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER9', 'images/NavButVenueRepl.gif');"><IMG src="images/NavButVenueOrig.gif" width="132" height="36" border="0" name="_HPB_ROLLOVER9" alt="LinkVenue"></A></DIV>
+<DIV style="top : 465px;left : 13px;
+  position : absolute;
+  z-index : 76;
+" id="Layer69"><A href="Hotel.html" id="_HPB_ROLLOVER8" onmouseout="HpbImgSwap('_HPB_ROLLOVER8', 'images/NavButHotelOrig.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER8', 'images/NavButHotelRepl.gif');"><IMG src="images/NavButHotelOrig.gif" width="132" height="36" border="0" name="_HPB_ROLLOVER8" alt="LinkHotel"></A></DIV>
+<DIV style="top : 509px;left : 13px;
+  position : absolute;
+  z-index : 75;
+" id="Layer70"><A href="OpenCer.html" id="_HPB_ROLLOVER11" onmouseout="HpbImgSwap('_HPB_ROLLOVER11', 'images/NavButOpenCerOrig.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER11', 'images/NavButOpenCerRepl.gif');"><IMG src="images/NavButOpenCerOrig.gif" width="132" height="36" border="0" name="_HPB_ROLLOVER11" alt="LinkOpenCer"></A></DIV>
+<DIV style="top : 598px;left : 13px;
+  position : absolute;
+  z-index : 74;
+  visibility : visible;
+" id="Layer71"><A href="staff.htm" id="_HPB_ROLLOVER7" onmouseout="HpbImgSwap('_HPB_ROLLOVER7', 'images/NavButStaffOrig.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER7', 'images/NavButStaffRepl.gif');"><IMG src="images/NavButStaffOrig.gif" width="132" height="36" border="0" name="_HPB_ROLLOVER7" alt="LinkStaff"></A></DIV>
+<DIV style="top : 243px;left : 13px;
+  position : absolute;
+  z-index : 73;
+  visibility : visible;
+" id="Layer72"><A href="standards.htm" id="_HPB_ROLLOVER6" onmouseout="HpbImgSwap('_HPB_ROLLOVER6', 'images/NavButStandardsOrig.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER6', 'images/NavButStandardsRepl.gif');"><IMG src="images/NavButStandardsOrig.gif" width="132" height="36" border="0" name="_HPB_ROLLOVER6" alt="LinkStandards"></A></DIV>
+<DIV style="top : 332px;left : 13px;
+  position : absolute;
+  z-index : 72;
+  visibility : visible;
+" id="Layer73"><A href="registration.htm" id="_HPB_ROLLOVER5" onmouseout="HpbImgSwap('_HPB_ROLLOVER5', 'images/NavButRegOrig.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER5', 'images/NavButRegRepl.gif');"><IMG src="images/NavButRegOrig.gif" width="132" height="36" border="0" name="_HPB_ROLLOVER5" alt="Registration"></A></DIV>
+<DIV style="top : 288px;left : 13px;
+  position : absolute;
+  z-index : 71;
+  visibility : visible;
+" id="Layer74"><A href="schedule.htm" id="_HPB_ROLLOVER4" onmouseout="HpbImgSwap('_HPB_ROLLOVER4', 'images/NavButScheduleOrig.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER4', 'images/NavButScheduleRepl.gif');"><IMG src="images/NavButScheduleOrig.gif" width="132" height="36" border="0" name="_HPB_ROLLOVER4" alt="LinkSchedule"></A></DIV>
+<DIV style="top : 155px;left : 13px;
+  position : absolute;
+  z-index : 70;
+  visibility : visible;
+" id="Layer75"><A href="index.shtml" id="_HPB_ROLLOVER3" onmouseout="HpbImgSwap('_HPB_ROLLOVER3', 'images/NavButHomeOrig.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER3', 'images/NavButHomeRepl.gif');"><IMG src="images/NavButHomeOrig.gif" width="132" height="36" border="0" name="_HPB_ROLLOVER3" alt="LinkHome"></A></DIV>
+<DIV style="top : 643px;left : 13px;
+  position : absolute;
+  z-index : 69;
+  width : 74px;
+  height : 22px;
+  visibility : visible;
+" id="Layer79" align="center"><A href="about.htm" id="_HPB_ROLLOVER1" onmouseout="HpbImgSwap('_HPB_ROLLOVER1', 'mif/NavButAboutOrig.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER1', 'mif/NavButAboutRepl.gif');"><IMG src="mif/NavButAboutOrig.gif" width="132" height="36" border="0" name="_HPB_ROLLOVER1" alt="LinkAboutUs"></A></DIV>
+<DIV style="top : 554px;left : 13px;
+  position : absolute;
+  z-index : 68;
+  width : 132px;
+  height : 36px;
+  visibility : visible;
+" id="Layer80"><A href="Opptys.html" id="_HPB_ROLLOVER12" onmouseout="HpbImgSwap('_HPB_ROLLOVER12', 'images/NavButOpptysOrig.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER12', 'images/NavButOpptysRepl.gif');"><IMG src="images/NavButOpptysOrig.gif" width="132" height="36" border="0" name="_HPB_ROLLOVER12" alt="LinkOpptys"></A></DIV>
+<map name="Map"><area shape="rect" coords="43,29,112,99" href="http://www.co.dekalb.ga.us" target="_blank"><area shape="rect" coords="120,28,180,96" href="http://www.ditc.us" target="_blank"><area shape="rect" coords="187,30,289,95" href="http://www.dcvb.org" target="_blank"><area shape="rect" coords="292,18,364,101" href="http://www.woaolympians.com" target="_blank"><area shape="rect" coords="364,32,430,93" href="http://www.fnt-usa.org" target="_blank"><area shape="rect" coords="433,28,503,100" href="http://www.usatfgeorgia.org" target="_blank"><area shape="rect" coords="506,38,589,103" href="http://www.mindspring.com/%7Edcarts/" target="_blank"><area shape="rect" coords="593,41,728,95" href="http://www.dekalbmedicalcenter.org" target="_blank">
+</map></body>
+</HTML>
